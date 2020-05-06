@@ -111,86 +111,136 @@
       },
       {
         src:"https://www.youtube.com/watch?v=WDY7uD4E8p4",
-        title:"lol look at dis"
+        type: 'iframe' ,
+        title:"test test test yo"
       },
       {
         src:"https://www.youtube.com/watch?v=0CBL3rS1ZKs",
-        title: "ayylmao"
+        type: 'iframe' 
       }],
 
       [{
         src:"img/fullsize/4.jpg",
-        title:"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAA AAAAAAAA"
+        title:"e"
+      },
+      {
+        src:"https://www.youtube.com/watch?v=sNdqj4EQWr0",
+        type: 'iframe' 
+      },
+      {
+        src:"https://www.youtube.com/watch?v=9mIsiOWILd8",
+        type: 'iframe' 
+      }],
+
+      [{
+        src:"https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg",
+        title:"e"
+      },
+      {
+        src:"https://www.youtube.com/watch?v=sNdqj4EQWr0",
+        type: 'iframe' 
       },
       {
         src:"img/fullsize/1.jpg",
-        title:"HEY YAY YAY YAYAY HEY YAY YAY I SAID HEY WHAT'S GOING ON????"
+        title:"YO BRO HEY BRO THIS IS A TEST BRO"
       },
       {
-        src:"https://www.youtube.com/watch?v=WDY7uD4E8p4",
-        title:"lol look at dis"
+        src:"img/fullsize/2.jpg",
+        title:"e"
       },
       {
-        src:"https://www.youtube.com/watch?v=0CBL3rS1ZKs",
-        title: "ayylmao"
-      }]
+        src:"https://www.youtube.com/watch?v=9mIsiOWILd8",
+        type: 'iframe' 
+      }],
 
+      [{
+        src:"img/fullsize/5.jpg",
+        title:"e"
+      },
+      {
+        src:"img/fullsize/1.jpg",
+        title:"e"
+      },
+      {
+        src:"https://www.youtube.com/watch?v=UdnT9c9RgBQ",
+        type: 'iframe' 
+      },
+      {
+        src:"img/fullsize/2.jpg",
+        title:"YO BRO HEY BRO THIS IS A TEST BRO"
+      },
+      {
+        src:"img/fullsize/4.jpg",
+        title:"e"
+      },
+      {
+        src:"https://www.youtube.com/watch?v=-SWc850-mDg",
+        type: 'iframe' 
+      }],
+
+      [{
+        src:"https://www.youtube.com/watch?v=rPOWcdi--3k",
+        type: 'iframe' ,
+        title:"test test test yo"
+      }],
+
+      [{
+        src:"https://www.youtube.com/watch?v=rPOWcdi--3k",
+        type: 'iframe' ,
+        title:"test test test yo"
+      },
+      {
+        src:"img/fullsize/5.jpg",
+        title:"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee lorem "
+      }]
 
     ];
 
-    var portfolioItem =document.getElementsByClassName("portfolio-box");
-
     // Magnific popup calls
-$('.portfolio-box').magnificPopup({
-  items: [
-    {
-      src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/800px-Peter_%26_Paul_fortress_in_SPB_03.jpg',
-      title: 'Peter & Paul fortress in SPB'
-    },
-    {
-      src: 'https://www.youtube.com/watch?v=xdq1gVgvDkY',
-      type: 'iframe' // this overrides default type
-    },
-    {
-      src: $('<div class="white-popup">Dynamically created element</div>'), // Dynamically created element
-      type: 'inline'
-    },
-    {
-      src: '<div class="white-popup">Popup from HTML string</div>', // HTML string
-      type: 'inline'
-    },
-    {
-      src: '#my-popup', // CSS selector of an element on page that should be used as a popup
-      type: 'inline'
-    }
-  ],
-  gallery: {
-    enabled: true
-  },
-  type: 'image' // this is a default type
+
+    $('.portfolio-box').each(function(){
+
+      var indexImage =$(".portfolio-box").index(this);
+      console.log(indexImage);
+        $(this).magnificPopup({
+          items: magnificData[$(".portfolio-box").index(this)],
+          gallery: {
+            enabled: true
+          },
+          type: 'image' // this is a default type
+
+        });
+    });
+
+// $('.portfolio-box').magnificPopup({
+//   items: [
+//     {
+//       src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/800px-Peter_%26_Paul_fortress_in_SPB_03.jpg',
+//       title: 'Peter & Paul fortress in SPB'
+//     },
+//     {
+//       src: 'https://www.youtube.com/watch?v=xdq1gVgvDkY',
+//       type: 'iframe' // this overrides default type
+//     },
+//     {
+//       src: $('<div class="white-popup">Dynamically created element</div>'), // Dynamically created element
+//       type: 'inline'
+//     },
+//     {
+//       src: '<div class="white-popup">Popup from HTML string</div>', // HTML string
+//       type: 'inline'
+//     },
+//     {
+//       src: '#my-popup', // CSS selector of an element on page that should be used as a popup
+//       type: 'inline'
+//     }
+//   ],
+//   gallery: {
+//     enabled: true
+//   },
+//   type: 'image' // this is a default type
  
-});
-
-
-$('.video').magnificPopup({
-  type: 'iframe',
-  
-  
-  iframe: {
-     markup: '<div class="mfp-iframe-scaler">'+
-                '<div class="mfp-close"></div>'+
-                '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
-                '<div class="mfp-title">Some caption</div>'+
-              '</div>'
-  },
-  callbacks: {
-    markupParse: function(template, values, item) {
-     values.title = item.el.attr('title');
-    }
-  }
-  
-  
-});
+// });
 
 
 })(jQuery); // End of use strict
