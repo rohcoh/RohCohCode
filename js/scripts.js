@@ -48,151 +48,67 @@
   $(window).scroll(navbarCollapse);
 
 
-  var projItem =document.getElementsByClassName("test");
-  var imageActive=false;
-
-  var resetProjs = function(){
-    for(var i = 0; i < projItem.length; i++)
-    {
-      $(projItem[i]).hide();
-    }
-    imageActive=false;
-  };
-
-  $("#projectItems").hide();
-  resetProjs();
-
-    $(".imagePort").click(function(){
-      var indexImage =$(".imagePort").index(this);
-      var isvisible = $(projItem[indexImage]).is(':visible');
-
-
-      //clicking the image again
-      if(isvisible){
-        imageActive=false;
-        resetProjs();
-        $("#projectItems").hide();
-        $(this).attr("href","#project");
-      }
-      //no other projects visible and clicking
-      else if(!isvisible && !imageActive){
-        $(projItem[indexImage]).show();
-        $("#projectItems").show();
-        imageActive=true;
-        $(this).attr("href","#portfolio");
-      }
-      //another project is visible and clicking
-      else if(!isvisible && imageActive){
-        resetProjs();
-        $(".imagePort").attr("href","#project");
-        $(projItem[indexImage]).show();
-        imageActive=true;
-        $(this).attr("href","#portfolio");
-      }
-    }); 
-    
-
-    $('.carousel').carousel({
-      interval:false,
-      pause:"hover"
-    });
-
-
-
-
     var  magnificData = [
       [{
-        src:"img/fullsize/4.jpg",
-        title:"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAA AAAAAAAA"
+        src:"img/sd_md/md0.png",
+        title:"e"
       },
       {
-        src:"img/fullsize/1.jpg",
-        title:"HEY YAY YAY YAYAY HEY YAY YAY I SAID HEY WHAT'S GOING ON????"
+        src:"img/sd_md/md1.png",
+        title:"e"
       },
       {
-        src:"https://www.youtube.com/watch?v=WDY7uD4E8p4",
-        type: 'iframe' ,
-        title:"test test test yo"
+        src:"img/sd_md/md2.png",
+        title:"e"
       },
       {
-        src:"https://www.youtube.com/watch?v=0CBL3rS1ZKs",
-        type: 'iframe' 
+        src:"img/sd_md/md3.png",
+        title:"e"
       }],
 
       [{
-        src:"img/fullsize/4.jpg",
+        src:"img/cmas_2019/cm0.png",
         title:"e"
       },
       {
-        src:"https://www.youtube.com/watch?v=sNdqj4EQWr0",
-        type: 'iframe' 
+        src:"img/cmas_2019/cm1.png",
+        title:"e"
       },
       {
-        src:"https://www.youtube.com/watch?v=9mIsiOWILd8",
-        type: 'iframe' 
+        src:"img/cmas_2019/cm2.png",
+        title:"e"
       }],
 
       [{
-        src:"https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg",
+        src:"img/halloween/h0.png",
         title:"e"
       },
       {
-        src:"https://www.youtube.com/watch?v=sNdqj4EQWr0",
-        type: 'iframe' 
-      },
-      {
-        src:"img/fullsize/1.jpg",
-        title:"YO BRO HEY BRO THIS IS A TEST BRO"
-      },
-      {
-        src:"img/fullsize/2.jpg",
+        src:"img/halloween/h1.png",
         title:"e"
       },
       {
-        src:"https://www.youtube.com/watch?v=9mIsiOWILd8",
-        type: 'iframe' 
+        src:"img/halloween/h2.png",
+        title:"e"
       }],
 
+      
       [{
-        src:"img/fullsize/5.jpg",
+        src:"img/md_garden/md0.png",
         title:"e"
       },
       {
-        src:"img/fullsize/1.jpg",
+        src:"img/md_garden/md1.png",
         title:"e"
       },
       {
-        src:"https://www.youtube.com/watch?v=UdnT9c9RgBQ",
-        type: 'iframe' 
-      },
-      {
-        src:"img/fullsize/2.jpg",
-        title:"YO BRO HEY BRO THIS IS A TEST BRO"
-      },
-      {
-        src:"img/fullsize/4.jpg",
+        src:"img/md_garden/md2.png",
         title:"e"
       },
       {
-        src:"https://www.youtube.com/watch?v=-SWc850-mDg",
-        type: 'iframe' 
+        src:"img/md_garden/md3.png",
+        title:"e"
       }],
-
-      [{
-        src:"https://www.youtube.com/watch?v=rPOWcdi--3k",
-        type: 'iframe' ,
-        title:"test test test yo"
-      }],
-
-      [{
-        src:"https://www.youtube.com/watch?v=rPOWcdi--3k",
-        type: 'iframe' ,
-        title:"test test test yo"
-      },
-      {
-        src:"img/fullsize/5.jpg",
-        title:"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee lorem "
-      }]
 
     ];
 
@@ -207,40 +123,19 @@
           gallery: {
             enabled: true
           },
-          type: 'image' // this is a default type
-
+          type: 'image', // this is a default type
+          // callbacks: {
+    
+          //   buildControls: function() {
+          //     // re-appends controls inside the main container
+          //     this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
+          //   }
+            
+          // }
         });
     });
 
-// $('.portfolio-box').magnificPopup({
-//   items: [
-//     {
-//       src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/800px-Peter_%26_Paul_fortress_in_SPB_03.jpg',
-//       title: 'Peter & Paul fortress in SPB'
-//     },
-//     {
-//       src: 'https://www.youtube.com/watch?v=xdq1gVgvDkY',
-//       type: 'iframe' // this overrides default type
-//     },
-//     {
-//       src: $('<div class="white-popup">Dynamically created element</div>'), // Dynamically created element
-//       type: 'inline'
-//     },
-//     {
-//       src: '<div class="white-popup">Popup from HTML string</div>', // HTML string
-//       type: 'inline'
-//     },
-//     {
-//       src: '#my-popup', // CSS selector of an element on page that should be used as a popup
-//       type: 'inline'
-//     }
-//   ],
-//   gallery: {
-//     enabled: true
-//   },
-//   type: 'image' // this is a default type
- 
-// });
+
 
 
 })(jQuery); // End of use strict
