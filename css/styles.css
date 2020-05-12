@@ -10078,6 +10078,9 @@ header.masthead h1 {
     font-size: 3.5rem;
   }
 }
+.portfolio-box{
+  cursor: pointer;
+}
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
   max-width: 1920px;
@@ -10299,3 +10302,5 @@ header.masthead h1 {
   }
 
 }
+
+

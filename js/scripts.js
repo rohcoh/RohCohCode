@@ -92,7 +92,6 @@
         title:"e"
       }],
 
-      
       [{
         src:"img/md_garden/md0.png",
         title:"e"
@@ -107,6 +106,42 @@
       },
       {
         src:"img/md_garden/md3.png",
+        title:"e"
+      }],
+
+            
+      [{
+        src:"img/kts/kts0.png",
+        title:"e"
+      },
+      {
+        src:"img/kts/kts1.png",
+        title:"e"
+      },
+      {
+        src:"img/kts/kts2.png",
+        title:"e"
+      },
+      {
+        src:"img/kts/kts3.png",
+        title:"e"
+      }],
+
+            
+      [{
+        src:"img/kts/kts0.png",
+        title:"e"
+      },
+      {
+        src:"img/kts/kts1.png",
+        title:"e"
+      },
+      {
+        src:"img/kts/kts2.png",
+        title:"e"
+      },
+      {
+        src:"img/kts/kts3.png",
         title:"e"
       }],
 
