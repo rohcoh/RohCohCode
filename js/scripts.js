@@ -49,17 +49,34 @@
 
 
     var  magnificData = [
+      
+      [{
+        src:"img/bday_gd/gd0.png",
+        title:"<br><a target='_blank' href='https://www.bluemountain.com/ecards/birthday/beautiful-birthday-garden-interactive/card-3509034'>Link to card</a>"
+      },
+      {
+        src:"img/bday_gd/gd1.png",
+        title:"e"
+      },
+      {
+        src:"img/bday_gd/gd2.png",
+        title:"e"
+      },
+      {
+        src:"img/bday_gd/gd3.png",
+        title:"e"
+      }],
       [{
         src:"img/sd_md/md0.png",
-        title:"e"
+        title:"Spot the difference game made for Mother's day 2020. Collaberated programming with one other coworker. Worked on updating programming framework, particle effects, implamenting audio, and putting in new art assets. <br><a target='_blank' href='https://www.bluemountain.com/ecards/mothers-day/mothers-day-spot-the-differences-game/card-3506711'>Link to game</a>"
       },
       {
         src:"img/sd_md/md1.png",
-        title:"e"
+        title:"Main game scene"
       },
       {
         src:"img/sd_md/md2.png",
-        title:"e"
+        title:"Hint effect. Zooms in on area around difference."
       },
       {
         src:"img/sd_md/md3.png",
@@ -68,7 +85,7 @@
 
       [{
         src:"img/cmas_2019/cm0.png",
-        title:"e"
+        title:"<br><a target='_blank' href='https://www.bluemountain.com/ecards/christmas/the-gift-of-christmas-personalize/card-3491452'>Link to card</a>"
       },
       {
         src:"img/cmas_2019/cm1.png",
@@ -81,7 +98,7 @@
 
       [{
         src:"img/halloween/h0.png",
-        title:"e"
+        title:"<br><a target='_blank' href='https://www.bluemountain.com/ecards/halloween/halloween-hidden-objects-game/card-3501609'>Link to game</a>"
       },
       {
         src:"img/halloween/h1.png",
@@ -91,28 +108,10 @@
         src:"img/halloween/h2.png",
         title:"e"
       }],
-
-      [{
-        src:"img/md_garden/md0.png",
-        title:"e"
-      },
-      {
-        src:"img/md_garden/md1.png",
-        title:"e"
-      },
-      {
-        src:"img/md_garden/md2.png",
-        title:"e"
-      },
-      {
-        src:"img/md_garden/md3.png",
-        title:"e"
-      }],
-
             
       [{
         src:"img/kts/kts0.png",
-        title:"e"
+        title:""
       },
       {
         src:"img/kts/kts1.png",
@@ -130,7 +129,7 @@
             
       [{
         src:"img/kts/kts0.png",
-        title:"e"
+        title:"<br><a target='_blank' href='https://killthestreamer.itch.io/kill-the-streamer'>Link to game</a>"
       },
       {
         src:"img/kts/kts1.png",
