@@ -200,27 +200,57 @@
                     <div class="col-lg-8 text-center">
                         <h2 class="mt-0">Contact</h2>
                         <hr class="divider my-4" />
-                        <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                        <p class="text-muted mb-5">Want to get in touch with me? Feel free to leave me an email or visit my profiles.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 ml-auto text-center mb-5 mb-lg-0">
-                        <form action="https://send.pageclip.co/NwAbToH7JJ3qCCZAUeFaQHQQ238vgw0v" class="pageclip-form" method="post">
-                          <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-                          <input type="text" name="name" value="Roscoe Jones" />
-                          <input type="email" name="email" value="roscoe@example.com" />
+                    <div class="col-lg-7 ml-auto text-center mb-5 mb-lg-0">
+                        <form action="https://usebasin.com/f/1ecbce4f68df" method="POST">
+                                <div class="row">
 
-                          <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-                          <button type="submit" class="pageclip-form__submit">
-                            <span>Send</span>
-                          </button>
-                        </form>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="md-form mb-0">
+                                            <label for="name" class="">Name</label>
+                                            <input type="text" id="name" name="name" type="text" class="form-control" placeholder="Your name here" required>
+                                        </div>
+                                    </div>
 
-                        
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="md-form mb-0">
+                                            <label for="email" class="">Email</label>
+                                            <input id="email" name="email" type="email" class="form-control" placeholder="Your email here" required>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label for="email" class="">Subject</label>
+                                    <input id="subject" name="subject" type="text" class="form-control" placeholder="Your subject heading here" required>
+                                </div>
+                            </div>
+
+   
+                                <div class="row">
+
+                                    <div class="col-md-12">
+
+                                        <div class="md-form">
+                                            <label for="message">Message</label>
+                                            <textarea type="text" id="message" name="message" rows="4" maxlength="500" class="form-control md-textarea" placeholder="Your message here" required></textarea>
+                                        </div>
+
+                                    </div>
+                                </div>  
+                            <button type="submit">Submit</button>
+                         </form>
+ 
                     </div>
-                    <div class="col-lg-4 mr-auto text-center">
-                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i
-                        ><!-- Make sure to change the email address in BOTH the anchor text and the link target below!--><a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+                    <div class="col-lg-3 mr-auto text-center">
+                        <div class="contact-me">
+                            <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+                            <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -235,7 +265,8 @@
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-        <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+        <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"  SameSite="none Secure"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
         
         
