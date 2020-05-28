@@ -111,7 +111,7 @@
             
       [{
         src:"img/kts/kts0.png",
-        title:""
+        title:"<br><a target='_blank' href='https://killthestreamer.itch.io/kill-the-streamer'>Link to game</a>"
       },
       {
         src:"img/kts/kts1.png",
@@ -151,7 +151,6 @@
     $('.portfolio-box').each(function(){
 
       var indexImage =$(".portfolio-box").index(this);
-      console.log(indexImage);
         $(this).magnificPopup({
           items: magnificData[$(".portfolio-box").index(this)],
           gallery: {
