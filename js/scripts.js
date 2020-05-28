@@ -157,14 +157,6 @@
             enabled: true
           },
           type: 'image', // this is a default type
-          // callbacks: {
-    
-          //   buildControls: function() {
-          //     // re-appends controls inside the main container
-          //     this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
-          //   }
-            
-          // }
         });
     });
 
