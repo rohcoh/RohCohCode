@@ -13,10 +13,13 @@ const HALF_PI = Math.PI / 2;
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
+//lightest to darkest
 var colorP=[
-  ["#caf0f8","#90e0ef","#00b4d8"],
-  ["#bee9e8","#62b6cb","#1b4965"],
-  ["#BBE7FE","#68BBE3","#0E86D4"]
+  ["#caf0f8","#90e0ef","#00b4d8"],//good
+  ["#bee9e8","#62b6cb","#1b4965"],//meh
+  ["#BBE7FE","#68BBE3","#0E86D4"],//good
+  ["#BFD7ED","#60A3D9","#0074B7"],
+  ["#AACDE5","#6CC4DC","#3F92B7"]
 ]
 
 //credit to Zevan for base blob code
