@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  /*background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");*/
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -6071,7 +6071,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #4989ff81 !important;
+  background-color: rgba(202, 202, 202, 0.9)  !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9984,9 +9984,9 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
-  margin-bottom: 12rem;
-  margin-top: 12rem;
+  padding: 1rem 0;
+  margin-bottom: 10rem;
+  margin-top: 16rem;
 }
 
 #mainNav {
@@ -10054,7 +10054,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(139, 139, 139, 0.9) 0%, rgba(201, 201, 201, 0.3) 100%);
 }
 header.masthead h1 {
   font-size: 2.25rem;
@@ -10078,6 +10078,20 @@ header.masthead h1 {
     font-size: 3.5rem;
   }
 }
+
+
+@media (min-width: 576px) {
+  header.masthead {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    height: 100vh;
+  }
+}
+
 .portfolio-box{
   cursor: pointer;
 }
@@ -10148,7 +10162,7 @@ header.masthead h1 {
 }
 
 #portfolioItems{
-  padding-top: 30px;
+  padding-top: 16rem;
   padding-right: 0px;
   padding-left: 0px;
 }
@@ -10172,8 +10186,8 @@ header.masthead h1 {
 
 #about{
   padding-top: 2rem;
-  margin-bottom: 12rem;
-  margin-top: 12rem;
+  margin-bottom: 16rem;
+  margin-top: 16rem;
 }
 
 
@@ -10194,6 +10208,11 @@ header.masthead h1 {
   bottom: 0;
   left: 50%;
   margin-left: -3px;
+}
+
+#timeline-header{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 /* Container around content */
@@ -10300,7 +10319,23 @@ header.masthead h1 {
    .right {
   left: 0%;
   }
+}
+
+
+
+
+
+#myCanvas{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+          touch-action: none;
+          width: 100% ; /* for borders */
+          height: 100%; /* for borders */
+          top:0;
+          left:0;
 
 }
+
 
 

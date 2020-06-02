@@ -85,7 +85,7 @@
 
       [{
         src:"img/cmas_2019/cm0.png",
-        title:"Interactive card made for Christmas 2020. Main programmer on project. Worked with the artist to put in animations and various art assets. Tasked with optimization for older devices and handling particles. Made using Typscript with Greensock, PIXIJS, and inhouse libraries. <br><a target='_blank' href='https://www.bluemountain.com/ecards/christmas/the-gift-of-christmas-personalize/card-3491452'>Link to card</a>"
+        title:"Interactive card made for Christmas 2019. Main programmer on project. Worked with the artist to put in animations and various art assets. Tasked with optimization for older devices and handling particles. Made using Typscript with Greensock, PIXIJS, and inhouse libraries. <br><a target='_blank' href='https://www.bluemountain.com/ecards/christmas/the-gift-of-christmas-personalize/card-3491452'>Link to card</a>"
       },
       {
         src:"img/cmas_2019/cm1.png",
@@ -98,7 +98,7 @@
 
       [{
         src:"img/halloween/h0.png",
-        title:" Hidden object game made for Halloween 2019. Collaberated programming with two other programmers. Worked on optimizing spritesheet, adding in and adjusting audio, animations, and particle effects. Made using Typscript with Greensock, PIXIJS, and inhouse libraries.<br><a target='_blank' href='https://www.bluemountain.com/ecards/halloween/halloween-hidden-objects-game/card-3501609'>Link to game</a>"
+        title:" Hidden object game made for Halloween 2019. Collaberated programming with two other coworkers. Worked on optimizing spritesheet, adding in and adjusting audio, animations, and particle effects. Made using Typscript with Greensock, PIXIJS, and inhouse libraries.<br><a target='_blank' href='https://www.bluemountain.com/ecards/halloween/halloween-hidden-objects-game/card-3501609'>Link to game</a>"
       },
       {
         src:"img/halloween/h1.png",
@@ -111,7 +111,7 @@
             
       [{
         src:"img/kts/kts0.png",
-        title:"<br><a target='_blank' href='https://killthestreamer.itch.io/kill-the-streamer'>Link to game</a>"
+        title:""
       },
       {
         src:"img/kts/kts1.png",
@@ -133,7 +133,7 @@
       },
       {
         src:"img/kts/kts1.png",
-        title:"Main game scene. FrankerZ emotes will club together, pause and then launch in a circular pattern around the player. TheIlluminati emotes will charge at the player and will run away if the player looks at them."
+        title:"Main game scene. FrankerZ emotes will group together, pause and then launch in a circular pattern around the player. TheIlluminati emotes will charge at the player and will run away if the player looks in their direction."
       },
       {
         src:"img/kts/kts2.png",
@@ -157,14 +157,6 @@
             enabled: true
           },
           type: 'image', // this is a default type
-          // callbacks: {
-    
-          //   buildControls: function() {
-          //     // re-appends controls inside the main container
-          //     this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
-          //   }
-            
-          // }
         });
     });
 
