@@ -15,12 +15,13 @@ canvas.height = window.innerHeight;
 
 //lightest to darkest
 var colorP=[
-  ["#caf0f8","#90e0ef","#00b4d8"],//good
-  ["#bee9e8","#62b6cb","#1b4965"],//meh
-  ["#BBE7FE","#68BBE3","#0E86D4"],//good
-  ["#BFD7ED","#60A3D9","#0074B7"],
-  ["#AACDE5","#6CC4DC","#3F92B7"]
+  ["#caf0f8","#90e0ef"],//good
+  ["#bee9e8","#62b6cb"],//meh
+  ["#BBE7FE","#68BBE3"],//good
+  ["#BFD7ED","#60A3D9"],
+  ["#AACDE5","#6CC4DC"]
 ]
+console.log(window.innerWidth);
 
 //credit to Zevan for base blob code
 class Blob {
@@ -82,11 +83,16 @@ function getRandomInt(max) {
 }
 
 var randomP = getRandomInt(colorP.length);
-console.log(randomP);
+
 var blobs = [];
-for(var i = colorP[randomP].length; i >= 0; i--){
-  console.log(colorP[randomP].length);
-  var b = new Blob((1600*i),i*10,200);
+for(var i = colorP[randomP].length; i >= 0; i--)
+{
+  if(window.innerWidth <= 620){
+    var b = new Blob((1000*i),i*5,200);
+  }
+  else{
+    var b = new Blob((1600*i),i*10,200);
+  }
   blobs.push(b);
 }
 
