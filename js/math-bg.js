@@ -50,7 +50,9 @@ class Blob {
     this.thetaRampDest = 12;
     this.rampDamp = 25;
   }
-  update(color) {
+  update(color,radiusU,segmentsU) {
+    this.radius=radiusU;
+    this.segments=segmentsU;
     this.thetaRamp += (this.thetaRampDest - this.thetaRamp) / this.rampDamp;
     this.theta += 0.03;
 
@@ -86,7 +88,7 @@ console.log(randomP);
 var blobs = [];
 for(var i = colorP[randomP].length; i >= 0; i--){
   console.log(colorP[randomP].length);
-  var b = new Blob((1600*i),i*10,200);
+  var b = new Blob((window.innerWidth*i),i*10,200);
   blobs.push(b);
 }
 
@@ -94,7 +96,8 @@ function loop() {
   c.clearRect(0, 0, canvas.width, canvas.height);
 
   for(var i = 0; i < colorP[randomP].length; i++){
-    blobs[i].update(colorP[randomP][i]);
+    blobs[i].update(colorP[randomP][i],(window.innerWidth*(i+1)),i*10);
+    console.log("okay so:",i," and", (window.innerWidth*i) );
   }
   window.requestAnimationFrame(loop);
 }
