@@ -100,7 +100,7 @@ function loop() {
   // for(var i = 0; i < colorP[randomP].length; i++){
   //   blobs[i].update(colorP[randomP][i]);
   // }
-  blob1.update("#68BBE3");
+  blob1.update("#90e0ef");
   window.requestAnimationFrame(loop);
 }
 loop();
