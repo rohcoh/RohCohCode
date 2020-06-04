@@ -1,5 +1,6 @@
 
 var canvas = document.getElementById("myCanvas");
+canvas.style.zIndex = "-3";
 var c = canvas.getContext("2d");
 c.fillStyle="#ebf8ff";
 const SCALE = 0.25;
@@ -16,7 +17,7 @@ var colorP=[
   ["#BBE7FE","#68BBE3"],//good
   ["#BFD7ED","#60A3D9"],
   ["#AACDE5","#6CC4DC"]
-]
+];
 console.log(window.innerWidth);
 
 //credit to Zevan for base blob code
@@ -37,7 +38,7 @@ class Blob {
     const halfBumpRadius = bumpRadius / 2;
 
     for (let i = 0; i < this.segments + 2; i++) {
-      this.anchors.push(0,300);
+      this.anchors.push(0,0);
       this.radii.push(Math.random() * bumpRadius - halfBumpRadius);
       this.thetaOff.push(Math.random() * TWO_PI);
     }
@@ -62,7 +63,7 @@ class Blob {
     }
 
     c.save();
-    c.translate(0, 0);
+    c.translate(0,0);
     c.scale(SCALE, SCALE);
     c.fillStyle = color;
     c.beginPath();
@@ -80,26 +81,24 @@ function getRandomInt(max) {
 
 var randomP = getRandomInt(colorP.length);
 
-var blob1 = new Blob(1200,10,200);
 var blobs = [];
-// for(var i = colorP[randomP].length; i >= 0; i--)
-// {
-//   if(window.innerWidth <= 620){
-//     var b = new Blob((1000*i),i*5,200);
-//   }
-//   else{
-//     var b = new Blob((1600*i),i*10,200);
-//   }
-//   blobs.push(b);
-// }
+for(var i = colorP[randomP].length; i >= 0; i--)
+{
+  if(window.innerWidth <= 620){
+    var b = new Blob((1000*i),i*5,200);
+  }
+  else{
+    var b = new Blob((1600*i),i*10,200);
+  }
+  blobs.push(b);
+}
 
 function loop() {
   c.clearRect(0, 0, canvas.width, canvas.height);
 
-  // for(var i = 0; i < colorP[randomP].length; i++){
-  //   blobs[i].update(colorP[randomP][i]);
-  // }
-  blob1.update("#90e0ef");
+  for(var i = 0; i < colorP[randomP].length; i++){
+    blobs[i].update(colorP[randomP][i]);
+  }
   window.requestAnimationFrame(loop);
 }
 loop();
