@@ -9790,18 +9790,6 @@ header.masthead h1 {
   }
 }
 
-#buffer{
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  touch-action: none;
-  width: 100% ; /* for borders */
-  height: 100%; /* for borders */
-  top:0;
-  left:0;
-  z-index: -2;
-  background-color: rgba(209, 38, 38, 0.945);
-}
 
 #myCanvas{
   margin: 0;
