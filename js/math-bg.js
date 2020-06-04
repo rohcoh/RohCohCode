@@ -1,9 +1,6 @@
 
-
-  
-
 var canvas = document.getElementById("myCanvas");
-canvas.style.zIndex = "-2";
+canvas.style.zIndex = "-3";
 var c = canvas.getContext("2d");
 c.fillStyle="#ebf8ff";
 const SCALE = 0.25;
@@ -84,24 +81,26 @@ function getRandomInt(max) {
 
 var randomP = getRandomInt(colorP.length);
 
+var blob1 = new Blob(1200,10,200);
 var blobs = [];
-for(var i = colorP[randomP].length; i >= 0; i--)
-{
-  if(window.innerWidth <= 620){
-    var b = new Blob((1000*i),i*5,200);
-  }
-  else{
-    var b = new Blob((1600*i),i*10,200);
-  }
-  blobs.push(b);
-}
+// for(var i = colorP[randomP].length; i >= 0; i--)
+// {
+//   if(window.innerWidth <= 620){
+//     var b = new Blob((1000*i),i*5,200);
+//   }
+//   else{
+//     var b = new Blob((1600*i),i*10,200);
+//   }
+//   blobs.push(b);
+// }
 
 function loop() {
   c.clearRect(0, 0, canvas.width, canvas.height);
 
-  for(var i = 0; i < colorP[randomP].length; i++){
-    blobs[i].update(colorP[randomP][i]);
-  }
+  // for(var i = 0; i < colorP[randomP].length; i++){
+  //   blobs[i].update(colorP[randomP][i]);
+  // }
+  blob1.update("#68BBE3");
   window.requestAnimationFrame(loop);
 }
 loop();
