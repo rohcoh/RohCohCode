@@ -38,7 +38,7 @@ class Blob {
     const halfBumpRadius = bumpRadius / 2;
 
     for (let i = 0; i < this.segments + 2; i++) {
-      this.anchors.push(0, 0);
+      this.anchors.push(0,300);
       this.radii.push(Math.random() * bumpRadius - halfBumpRadius);
       this.thetaOff.push(Math.random() * TWO_PI);
     }
@@ -63,7 +63,7 @@ class Blob {
     }
 
     c.save();
-    c.translate(-10, -10);
+    c.translate(0, 0);
     c.scale(SCALE, SCALE);
     c.fillStyle = color;
     c.beginPath();
