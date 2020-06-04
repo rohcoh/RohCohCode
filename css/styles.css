@@ -181,6 +181,9 @@ a:not([href]):hover {
   text-decoration: none;
 }
 
+a:active, a:focus{
+  outline:none;
+}
 pre,
 code,
 kbd,
@@ -9787,6 +9790,19 @@ header.masthead h1 {
   }
 }
 
+#buffer{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  touch-action: none;
+  width: 100% ; /* for borders */
+  height: 100%; /* for borders */
+  top:0;
+  left:0;
+  z-index: -2;
+  background-color: rgba(255, 255, 255, 0);
+}
+
 #myCanvas{
   margin: 0;
   padding: 0;
@@ -9796,7 +9812,7 @@ header.masthead h1 {
   height: 100%; /* for borders */
   top:0;
   left:0;
-
+  z-index: -3;
 }
 
 

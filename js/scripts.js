@@ -160,6 +160,9 @@
         });
     });
 
+    function removeFocus() { 
+      $(".portfolio-box").index(this).blur(); 
+  } 
 
 
 

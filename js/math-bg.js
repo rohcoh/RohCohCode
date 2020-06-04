@@ -1,6 +1,5 @@
 
 var canvas = document.getElementById("myCanvas");
-canvas.style.zIndex = "-3";
 var c = canvas.getContext("2d");
 c.fillStyle="#ebf8ff";
 const SCALE = 0.25;
