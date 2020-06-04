@@ -2,21 +2,23 @@
 var canvas = document.getElementById("myCanvas");
 canvas.style.zIndex = "-3";
 var c = canvas.getContext("2d");
-c.fillStyle="#ebf8ff";
 const SCALE = 0.25;
 const TWO_PI = Math.PI * 2;
 const HALF_PI = Math.PI / 2;
-
+c.fillStyle = "#eff7f6";
+c.fillRect(0,0,window.innerWidth,window.innerHeight);
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
+
+// ["#caf0f8","#90e0ef"],//good
+// ["#bee9e8","#62b6cb"],//meh
+// ["#BBE7FE","#68BBE3"],//good
+// ["#BFD7ED","#60A3D9"],
+// ["#AACDE5","#6CC4DC"],
 //lightest to darkest
 var colorP=[
-  ["#caf0f8","#90e0ef"],//good
-  ["#bee9e8","#62b6cb"],//meh
-  ["#BBE7FE","#68BBE3"],//good
-  ["#BFD7ED","#60A3D9"],
-  ["#AACDE5","#6CC4DC"]
+  ["#90e0ef","#48cae4","#0096c7"]
 ];
 console.log(window.innerWidth);
 
@@ -85,16 +87,18 @@ var blobs = [];
 for(var i = colorP[randomP].length; i >= 0; i--)
 {
   if(window.innerWidth <= 620){
-    var b = new Blob((1000*i),i*5,200);
+    var b = new Blob((900*i),i*5,200);
   }
   else{
-    var b = new Blob((1600*i),i*10,200);
+    var b = new Blob((1200*i),i*8,200);
   }
   blobs.push(b);
 }
 
 function loop() {
-  c.clearRect(0, 0, canvas.width, canvas.height);
+
+  c.fillStyle = "#eff7f6";
+  c.fillRect(0,0,window.innerWidth,window.innerHeight);
 
   for(var i = 0; i < colorP[randomP].length; i++){
     blobs[i].update(colorP[randomP][i]);
