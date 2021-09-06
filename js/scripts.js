@@ -49,38 +49,43 @@
 
 
     var  magnificData = [
-      
+     
       [{
-        src:"img/bday_gd/gd0.png",
-        title:"New interact Birthday card made for the 2020 year. Main programmer on project. Worked with the artist to put in animations and various art assets. tasked with ptimization for older devices and handling particles. Made using Typscript with Greensock, PIXIJS, and inhouse libraries. <br><a target='_blank' href='https://www.bluemountain.com/ecards/birthday/beautiful-birthday-garden-interactive/card-3509034'>Link to card</a>"
+        src:"img/cottage/cottage2.png",
+        title:"Jaquie Lawson's Cottage is an app that allows users to play various games to earn money in order to clean up and decorate their cottage.  Assisted with QA. <br><a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>Link to app details.</a>"
       },
       {
-        src:"img/bday_gd/gd1.png",
-        title:"Main scene."
+        src:"img/cottage/cottage1.png",
+        title:"Account creation page. Formated the page based on specifications given in Adobe Animate files by product owners. "
       },
       {
-        src:"img/bday_gd/gd2.png",
-        title:"Animated name ending made using name pathfinder to spell out the recipient's name in confetti. Balloons float in from the bottom of the screen."
+        src:"img/cottage/cottage3.png",
+        title:"Ported over reusable assets from previous ecards and games. Programmed tutorials and new features for the card based games. Implamented the autoclick and helped with the autowin function for Solitaire and Tripeaks."
       },
-      {
-        src:"img/bday_gd/gd3.png",
-        title:"Splash screen when exitting fullscreen."
-      }],
+       {
+        src:"img/cottage/cottage4.png",
+        title:""
+      },
+       {
+        src:"img/cottage/cottage5.png",
+        title:""
+      },
+       {
+        src:"img/cottage/cottage6.png",
+        title:"Helped work on programming the background ambient animations."
+      }
+     ],
       [{
-        src:"img/sd_md/md0.png",
-        title:"Spot the difference game made for Mother's Day 2020. Collaberated programming with one other coworker. Worked on updating programming framework, particle effects, implamenting audio, and putting in new art assets. Made using Typscript with Greensock, PIXIJS, and inhouse libraries. <br><a target='_blank' href='https://www.bluemountain.com/ecards/mothers-day/mothers-day-spot-the-differences-game/card-3506711'>Link to game</a>"
+        src:"img/val/val1.png",
+        title:"Blue Mountain’s interactive 2019 Valentine's card. Was the primary coder and contact point for the project. Communicated directly with artists in order to get the specifications and assets for the card. <br><a target='_blank' href='https://www.americangreetings.com/detail/ecards/valentines-day/beauty-sweetness-and-love-ecard-interactive/pn/prod3506709'>Link to card</a>"
       },
       {
-        src:"img/sd_md/md1.png",
+        src:"img/val/val2.png",
         title:"Main game scene."
       },
       {
-        src:"img/sd_md/md2.png",
+        src:"img/val/val3.png",
         title:"Hint effect. Zooms in on area around difference."
-      },
-      {
-        src:"img/sd_md/md3.png",
-        title:"Ending scene. Displays fastest time."
       }],
 
       [{
@@ -97,52 +102,51 @@
       }],
 
       [{
-        src:"img/halloween/h0.png",
-        title:" Hidden object game made for Halloween 2019. Collaberated programming with two other coworkers. Worked on optimizing spritesheet, adding in and adjusting audio, animations, and particle effects. Made using Typscript with Greensock, PIXIJS, and inhouse libraries.<br><a target='_blank' href='https://www.bluemountain.com/ecards/halloween/halloween-hidden-objects-game/card-3501609'>Link to game</a>"
+        src:"img/jlnotecard/jlvid1.png",
+        title:"<br><a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506977&path=393919&pmode=init'>Link to game</a>"
       },
-      {
-        src:"img/halloween/h1.png",
-        title:"Main game scene."
+       {
+        src:"img/jlnotecard/jlvid2.png",
+        title:"text"
       },
-      {
-        src:"img/halloween/h2.png",
-        title:"Ending scene. Animation plays before showing time or telling player to play again."
-      }],
+       {
+        src:"img/jlnotecard/jlvid3.png",
+        title:"<br><a target='_blank'https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506979&path=393919&pmode=init'>Link to game</a>"
+      },
+       {
+        src:"img/jlnotecard/jlvid4.png",
+        title:"text"
+      }
+     ],
             
       [{
-        src:"img/kts/kts0.png",
+        src:"img/ar/ar1.png",
+        title:"AR application made for the 2018 American Greetings Interactive Intern Hackday. Project won first place. The goal of the application was to integrate greeting cards in the virtual space. Was the programmer on the team. "
+      },
+      {
+        src:"img/ar/ar2.png",
+        title:"App could detect if two or more certain cards were on the screen and based on the cards they could interact with each other. This was achieved by detecting which patterns were present and if the two had some sort of connection."
+      }, 
+      {
+        src:"img/ar/ar3.png",
+        title:""
+      }],           
+      [{
+        src:"img/levelproj/portal2.png",
+        title:"A collection of various maps done during my free time and published to the game’s respective workshop. Jumping around the pit is a Portal 2 level originally made for a class but continuously worked on after the end of the class until it was published. <br><a target='_blank' href='https://youtu.be/ChireDV6Xp0'>Link to video of the map</a>"
+      },
+        {
+        src:"img/levelproj/portal1.png",
         title:""
       },
       {
-        src:"img/kts/kts1.png",
-        title:"e"
+        src:"img/levelproj/bs1.png",
+        title:"My first officially published Beatsaber map. Published the map to the BeatSaver mapping site. Song went through several iterations  <br><a target='_blank' href='https://youtu.be/vlGm93O0fH0'>Link to video of the map</a>"
       },
       {
-        src:"img/kts/kts2.png",
-        title:"e"
-      },
-      {
-        src:"img/kts/kts3.png",
-        title:"e"
-      }],
-
-            
-      [{
-        src:"img/kts/kts0.png",
-        title:"Game made for RIT production studio class in 2016. Collaberated with 3-4 other programmers and 1 artist. Game connects to twitch using the twitch api with Unity. When user types in certain emotes into chat that emote's enemy version will spawn in game. Tasked with ai design, ai programming, level design and collaberated with gun programming. Made in Unity. <br><a target='_blank' href='https://killthestreamer.itch.io/kill-the-streamer'>Link to game</a>"
-      },
-      {
-        src:"img/kts/kts1.png",
-        title:"Main game scene. FrankerZ emotes will group together, pause and then launch in a circular pattern around the player. TheIlluminati emotes will charge at the player and will run away if the player looks in their direction."
-      },
-      {
-        src:"img/kts/kts2.png",
-        title:"e"
-      },
-      {
-        src:"img/kts/kts3.png",
-        title:"e"
-      }],
+        src:"img/levelproj/bs2.png",
+        title:""
+      }]
 
     ];
 

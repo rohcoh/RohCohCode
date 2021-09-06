@@ -5,7 +5,7 @@ var c = canvas.getContext("2d");
 const SCALE = 0.25;
 const TWO_PI = Math.PI * 2;
 const HALF_PI = Math.PI / 2;
-c.fillStyle = "#eff7f6";
+c.fillStyle = "#dbdad6";
 c.fillRect(0,0,window.innerWidth,window.innerHeight);
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -18,9 +18,12 @@ canvas.height = window.innerHeight;
 // ["#AACDE5","#6CC4DC"],
 //lightest to darkest
 var colorP=[
-  ["#90e0ef","#48cae4","#0096c7"]
+//  ["#90e0ef","#48cae4","#0096c7"],
+//  ["#caf0f8","#00b4d8","#0077b6"],
+//  ["#d9eeec","#64b2cd","#3c70a4"],
+    ["#2B6684","#032E42","#0A1417"]
+    
 ];
-console.log(window.innerWidth);
 
 //credit to Zevan for base blob code
 class Blob {
@@ -84,20 +87,24 @@ function getRandomInt(max) {
 var randomP = getRandomInt(colorP.length);
 
 var blobs = [];
+var multiplySeg=8;
+var multiplyRadius=1200;
+
+
+if(window.innerWidth <= 620){
+  multiplySeg=5;
+  multiplyRadius=600;
+  loopNum=2;
+}
 for(var i = colorP[randomP].length; i >= 0; i--)
 {
-  if(window.innerWidth <= 620){
-    var b = new Blob((900*i),i*5,200);
-  }
-  else{
-    var b = new Blob((1200*i),i*8,200);
-  }
+  var b = new Blob((multiplyRadius*i),i*multiplySeg,200);
   blobs.push(b);
 }
 
 function loop() {
 
-  c.fillStyle = "#eff7f6";
+  c.fillStyle = "#d4d7e3";
   c.fillRect(0,0,window.innerWidth,window.innerHeight);
 
   for(var i = 0; i < colorP[randomP].length; i++){
