@@ -3403,6 +3403,10 @@ input[type=button].btn-block {
 .nav-tabs .nav-item {
   margin-bottom: -1px;
 }
+
+.nav-item:hover{
+    color: #e3bd76 !important;
+}
 .nav-tabs .nav-link {
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
@@ -9482,8 +9486,11 @@ hr.light {
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
   color: #b67929;
 }
-#mainNav .navbar-nav .nav-item .nav-link.active {
+#mainNav .navbar-nav .nav-item .nav-link.active nav-item:hover{
   color: #b67929 !important;
+}
+test:hover{
+    color: #b67929 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -9492,16 +9499,22 @@ hr.light {
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 1.0);
+      text-shadow: -1px 0 #252b31, 0 1px #252b31,
+      1px 0 #252b31, 0 -1px #252b31;
+      
   }
   #mainNav .navbar-brand:hover {
     color: #fff;
+      
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 1.0);
+    color: rgba(255, 255, 255, 1.0);  
     padding: 0 1rem;
+    text-shadow: -1px 0 #252b31, 0 1px #252b31,
+      1px 0 #252b31, 0 -1px #252b31;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #e3bd76;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -9512,12 +9525,16 @@ hr.light {
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: #212529;
+      text-shadow: -1px 0 #fff, 0 1px #fff,
+      1px 0 #fff, 0 -1px #fff;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
     color: #b67929;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
+      text-shadow: -1px 0 #fff, 0 1px #fff,
+      1px 0 #fff, 0 -1px #fff;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
     color: #b67929;

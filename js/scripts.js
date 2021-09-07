@@ -168,6 +168,7 @@
       $(".portfolio-box").index(this).blur(); 
   } 
 
+        
 
 
 })(jQuery); // End of use strict
