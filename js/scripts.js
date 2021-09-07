@@ -52,7 +52,7 @@
      
       [{
         src:"img/cottage/cottage2.png",
-        title:"Jaquie Lawson's Cottage is an app that allows users to play various games to earn money in order to clean up and decorate their cottage.  Assisted with QA. <br><a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>Link to app details.</a>"
+        title:"Jaquie Lawson's Cottage is an app that allows users to play various games to earn money in order to clean up and decorate their cottage.  Assisted with QA and adding in tutorial for solitaire and tripeaks. <br><a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>Link to app details.</a>"
       },
       {
         src:"img/cottage/cottage1.png",
@@ -64,11 +64,11 @@
       },
        {
         src:"img/cottage/cottage4.png",
-        title:""
+        title:"UI portion of the solitaire tutorial."
       },
        {
         src:"img/cottage/cottage5.png",
-        title:""
+        title:"UI portion of the tripeaks tutorial."
       },
        {
         src:"img/cottage/cottage6.png",
@@ -77,7 +77,7 @@
      ],
       [{
         src:"img/val/val1.png",
-        title:"Blue Mountain’s interactive 2019 Valentine's card. Was the primary coder and contact point for the project. Communicated directly with artists in order to get the specifications and assets for the card. <br><a target='_blank' href='https://www.americangreetings.com/detail/ecards/valentines-day/beauty-sweetness-and-love-ecard-interactive/pn/prod3506709'>Link to card</a>"
+        title:"Blue Mountain’s interactive 2019 Valentine's card. Was the primary coder and contact point for the project. Communicated directly with artists in order to get the specifications and assets for the card. This is the intro scene that the user has to click the butterflies to reveal. <br><a target='_blank' href='https://www.americangreetings.com/detail/ecards/valentines-day/beauty-sweetness-and-love-ecard-interactive/pn/prod3506709'>Link to card</a>"
       },
       {
         src:"img/val/val2.png",
@@ -85,7 +85,7 @@
       },
       {
         src:"img/val/val3.png",
-        title:"Hint effect. Zooms in on area around difference."
+        title:"Valentine's day ending scene after all the animations have played."
       }],
 
       [{
@@ -103,19 +103,19 @@
 
       [{
         src:"img/jlnotecard/jlvid1.png",
-        title:"<br><a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506977&path=393919&pmode=init'>Link to game</a>"
+        title:"Jaquie Lawson’s video cards are a collection of animated ecards made for different holidays and situations. Wrote detailed step by step tutorials that would be usable by non-tech related positions, interns, and future hires on the confluence page for the department.<br><a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506977&path=393919&pmode=init'>Link to game</a>"
       },
        {
         src:"img/jlnotecard/jlvid2.png",
-        title:"text"
+        title:"Scene at the end of the card that displays various information."
       },
        {
         src:"img/jlnotecard/jlvid3.png",
-        title:"<br><a target='_blank'https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506979&path=393919&pmode=init'>Link to game</a>"
+        title:"Saint Patrick's day JL video card<br><a target='_blank'https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506979&path=393919&pmode=init'>Link to game</a>"
       },
        {
         src:"img/jlnotecard/jlvid4.png",
-        title:"text"
+        title:"End of JL video card and what it will look like to the user."
       }
      ],
             
@@ -129,7 +129,7 @@
       }, 
       {
         src:"img/ar/ar3.png",
-        title:""
+        title:"Development in progress for one of the christmas AR cards with some test assets in place."
       }],           
       [{
         src:"img/levelproj/portal2.png",
@@ -137,7 +137,7 @@
       },
         {
         src:"img/levelproj/portal1.png",
-        title:""
+        title:"Overview of the level's exit and the pit."
       },
       {
         src:"img/levelproj/bs1.png",
@@ -145,7 +145,7 @@
       },
       {
         src:"img/levelproj/bs2.png",
-        title:""
+        title:"Second half of the Beatsaber map and the song."
       }]
 
     ];
