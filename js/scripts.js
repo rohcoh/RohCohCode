@@ -52,7 +52,7 @@
      
       [{
         src:"img/cottage/cottage2.png",
-        title:"Jaquie Lawson's Cottage is an app that allows users to play various games to earn money in order to clean up and decorate their cottage.  Assisted with QA and adding in tutorial for solitaire and tripeaks. <br><a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>Link to app details.</a>"
+        title:"Jacquie Lawson's Cottage is an app that allows users to play various games to earn money in order to clean up and decorate their cottage.  Assisted with QA and adding in tutorial for solitaire and tripeaks. <br><a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>Link to app details.</a>"
       },
       {
         src:"img/cottage/cottage1.png",
@@ -103,7 +103,7 @@
 
       [{
         src:"img/jlnotecard/jlvid1.png",
-        title:"Jaquie Lawson’s video cards are a collection of animated ecards made for different holidays and situations. Wrote detailed step by step tutorials that would be usable by non-tech related positions, interns, and future hires on the confluence page for the department.<br><a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506977&path=393919&pmode=init'>Link to game</a>"
+        title:"Jacquie Lawson’s video cards are a collection of animated ecards made for different holidays and situations. Wrote detailed step by step tutorials that would be usable by non-tech related positions, interns, and future hires on the confluence page for the department.<br><a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506977&path=393919&pmode=init'>Link to game</a>"
       },
        {
         src:"img/jlnotecard/jlvid2.png",
