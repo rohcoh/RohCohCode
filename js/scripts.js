@@ -52,7 +52,7 @@
      
       [{
         src:"img/cottage/cottage2.png",
-        title:"Jacquie Lawson's Cottage is an app that allows users to play various games to earn money in order to clean up and decorate their cottage.  Assisted with QA and adding in tutorial for solitaire and tripeaks. <br><a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>Link to app details.</a>"
+        title:"Jacquie Lawson's Cottage is an app that allows users to play various games to earn money in order to clean up and decorate their cottage.  Assisted with QA and adding in the tutorial for solitaire and tripeaks. <br><a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>Link to app details.</a>"
       },
       {
         src:"img/cottage/cottage1.png",
@@ -60,7 +60,7 @@
       },
       {
         src:"img/cottage/cottage3.png",
-        title:"Ported over reusable assets from previous ecards and games. Programmed tutorials and new features for the card based games. Implamented the autoclick and helped with the autowin function for Solitaire and Tripeaks."
+        title:"Ported over reusable assets from previous ecards and games. Programmed tutorials and new features for the card based games.  Implemented the autoclick and helped with the autowin function for Solitaire and Tripeaks."
       },
        {
         src:"img/cottage/cottage4.png",
@@ -90,7 +90,7 @@
 
       [{
         src:"img/cmas_2019/cm0.png",
-        title:"Interactive card made for Christmas 2019. Main programmer on project. Worked with the artist to put in animations and various art assets. Tasked with optimization for older devices and handling particles. Made using Typscript with Greensock, PIXIJS, and inhouse libraries. <br><a target='_blank' href='https://www.bluemountain.com/ecards/christmas/the-gift-of-christmas-personalize/card-3491452'>Link to card</a>"
+        title:"Interactive card made for Christmas 2019. Main programmer on project. Worked with the artist to put in animations and various art assets. Tasked with optimization for older devices and handling particles. Made using Typescript with Greensock, PIXIJS, and in house libraries. <br><a target='_blank' href='https://www.bluemountain.com/ecards/christmas/the-gift-of-christmas-personalize/card-3491452'>Link to card</a>"
       },
       {
         src:"img/cmas_2019/cm1.png",
@@ -98,7 +98,7 @@
       },
       {
         src:"img/cmas_2019/cm2.png",
-        title:"Splash screen when exitting fullscreen."
+        title:"Splash screen when exiting fullscreen."
       }],
 
       [{
@@ -129,7 +129,7 @@
       }, 
       {
         src:"img/ar/ar3.png",
-        title:"Development in progress for one of the christmas AR cards with some test assets in place."
+        title:"Development in progress for one of the Christmas AR cards with some test assets in place."
       }],           
       [{
         src:"img/levelproj/portal2.png",
