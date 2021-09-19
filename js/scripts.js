@@ -52,7 +52,7 @@
      
       [{
         src:"img/cottage/cottage2.png",
-        title:"Jacquie Lawson's Cottage is an app that allows users to play various games to earn money in order to clean up and decorate their cottage.  Assisted with QA and adding in the tutorial for solitaire and tripeaks. <br><a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>Link to app details.</a>"
+        title:"Users of the app play various games to earn money to clean up and decorate their cottage. Developed UI, game tutorials, card game features, and ambient scene animations in Unity. <br><a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>Link to app details.</a>"
       },
       {
         src:"img/cottage/cottage1.png",
@@ -121,7 +121,7 @@
             
       [{
         src:"img/ar/ar1.png",
-        title:"AR application made for the 2018 American Greetings Interactive Intern Hackday. Project won first place. The goal of the application was to integrate greeting cards in the virtual space. Was the programmer on the team. "
+        title:"Programmer of AR application - 2018 American Greetings Interactive Intern Hackday. Application won first place. Application integrated greeting cards in the virtual space.  "
       },
       {
         src:"img/ar/ar2.png",
