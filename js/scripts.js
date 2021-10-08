@@ -132,19 +132,19 @@
         title:"Development in progress for one of the Christmas AR cards with some test assets in place."
       }],           
       [{
-        src:"img/levelproj/portal2.png",
+        src:"img/levelproj/portal2.PNG",
         title:"A collection of various maps done during my free time and published to the game’s respective workshop. Jumping around the pit is a Portal 2 level originally made for a class but continuously worked on after the end of the class until it was published. <br><a target='_blank' href='https://youtu.be/ChireDV6Xp0'>Link to video of the map</a>"
       },
         {
-        src:"img/levelproj/portal1.png",
+        src:"img/levelproj/portal1.PNG",
         title:"Overview of the level's exit and the pit."
       },
       {
-        src:"img/levelproj/bs1.png",
+        src:"img/levelproj/bs1.PNG",
         title:"My first officially published Beatsaber map. Published the map to the BeatSaver mapping site. Song went through several iterations  <br><a target='_blank' href='https://youtu.be/vlGm93O0fH0'>Link to video of the map</a>"
       },
       {
-        src:"img/levelproj/bs2.png",
+        src:"img/levelproj/bs2.PNG",
         title:"Second half of the Beatsaber map and the song."
       }]
 
