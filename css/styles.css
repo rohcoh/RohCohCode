@@ -5580,7 +5580,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: rgba(193, 200, 199, 0.8)  !important;
+  background-color: rgba(199,204,211, 0.9)  !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -5620,7 +5620,8 @@ button.bg-info:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #f0f1f4
+ !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -9800,6 +9801,11 @@ hr.rounded {
     
 }
 
+.descriptionTimeline{
+     font-size: .85rem !important;
+    font-weight: bolder !important;
+}
+
 
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -9997,6 +10003,9 @@ hr.rounded {
     color:#252b31 !important;
 }
 
+.text-blue{
+    color: #283347 !important;
+}
 
 
 @media (min-width: 992px) {

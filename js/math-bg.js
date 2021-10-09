@@ -5,7 +5,7 @@ var c = canvas.getContext("2d");
 const SCALE = 0.25;
 const TWO_PI = Math.PI * 2;
 const HALF_PI = Math.PI / 2;
-c.fillStyle = "#dbdad6";
+c.fillStyle = "#ACB4BF";
 c.fillRect(0,0,window.innerWidth,window.innerHeight);
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -104,7 +104,7 @@ for(var i = colorP[randomP].length; i >= 0; i--)
 
 function loop() {
 
-  c.fillStyle = "#d4d7e3";
+  c.fillStyle = "#77b2d0";
   c.fillRect(0,0,window.innerWidth,window.innerHeight);
 
   for(var i = 0; i < colorP[randomP].length; i++){

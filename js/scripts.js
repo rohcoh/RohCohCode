@@ -103,7 +103,7 @@
 
       [{
         src:"img/jlnotecard/jlvid1.png",
-        title:"Jacquie Lawson’s video cards are a collection of animated ecards made for different holidays and situations. Wrote detailed step by step tutorials that would be usable by non-tech related positions, interns, and future hires on the confluence page for the department.<br><a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506977&path=393919&pmode=init'>Link to game</a>"
+        title:"Jacquie Lawson’s video cards are a collection of animated ecards made for different holidays and situations. Wrote detailed step by step tutorials that would be usable by non-tech related positions, interns, and future hires on the confluence page for the department.<br><a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506977&path=393919&pmode=init'>Link to card</a>"
       },
        {
         src:"img/jlnotecard/jlvid2.png",
@@ -111,7 +111,7 @@
       },
        {
         src:"img/jlnotecard/jlvid3.png",
-        title:"Saint Patrick's day JL video card<br><a target='_blank'https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506979&path=393919&pmode=init'>Link to game</a>"
+        title:"Saint Patrick's day JL video card<br><a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506979&path=393919&pmode=init'>Link to card</a>"
       },
        {
         src:"img/jlnotecard/jlvid4.png",
