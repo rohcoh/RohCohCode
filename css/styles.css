@@ -401,6 +401,10 @@ h6, .h6 {
   font-size: 1rem;
 }
 
+.titleTextNoWrap{
+    word-wrap: break-word !important;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -557,6 +561,14 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+
+@media (min-width: 768px) {
+    .mobileBreak{
+        display:none;
+    }
+    
 }
 @media (min-width: 576px) {
   .container {

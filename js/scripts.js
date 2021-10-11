@@ -56,11 +56,11 @@
       },
       {
         src:"img/cottage/cottage1.png",
-        title:"Account creation page. Formated the page based on specifications given in Adobe Animate files by product owners. "
+        title:"Account creation page. Formatted the page based on specifications given in Adobe Animate files by product owners. "
       },
       {
         src:"img/cottage/cottage3.png",
-        title:"Ported over reusable assets from previous ecards and games. Programmed tutorials and new features for the card based games.  Implemented the autoclick and helped with the autowin function for Solitaire and Tripeaks."
+        title:"Ported over reusable assets from previous ecards and games. Programmed tutorials and new features for the playing card based games.  Implemented the autoclick and helped with the autowin function for Solitaire and Tripeaks."
       },
        {
         src:"img/cottage/cottage4.png",
@@ -81,7 +81,7 @@
       },
       {
         src:"img/val/val2.png",
-        title:"Main game scene."
+        title:"Card animation that played when the mailbox is clicked."
       },
       {
         src:"img/val/val3.png",
@@ -90,11 +90,11 @@
 
       [{
         src:"img/cmas_2019/cm0.png",
-        title:"Interactive card made for Christmas 2019. Main programmer on project. Worked with the artist to put in animations and various art assets. Tasked with optimization for older devices and handling particles. Made using Typescript with Greensock, PIXIJS, and in house libraries. <br><a target='_blank' href='https://www.bluemountain.com/ecards/christmas/the-gift-of-christmas-personalize/card-3491452'>Link to card</a>"
+        title:"Interactive card made for Christmas 2019. Main programmer on project. Worked with the artist to put in the animations and assets. Tasked with optimization for older devices and handling particles. Made using Typescript with Greensock, PIXIJS, and in house libraries. <br><a target='_blank' href='https://www.bluemountain.com/ecards/christmas/the-gift-of-christmas-personalize/card-3491452'>Link to card</a>"
       },
       {
         src:"img/cmas_2019/cm1.png",
-        title:"Ending custom name screen"
+        title:"Ending of card displaying the user's name."
       },
       {
         src:"img/cmas_2019/cm2.png",
@@ -107,15 +107,15 @@
       },
        {
         src:"img/jlnotecard/jlvid2.png",
-        title:"Scene at the end of the card that displays various information."
+        title:"Scene at the end of the card that displays various information related to the topic of the card."
       },
        {
         src:"img/jlnotecard/jlvid3.png",
-        title:"Saint Patrick's day JL video card<br><a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506979&path=393919&pmode=init'>Link to card</a>"
+        title:"Saint Patrick's day JL video card.<br><a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506979&path=393919&pmode=init'>Link to card</a>"
       },
        {
         src:"img/jlnotecard/jlvid4.png",
-        title:"End of JL video card and what it will look like to the user."
+        title:"End of JL video card from the user side."
       }
      ],
             
@@ -125,7 +125,7 @@
       },
       {
         src:"img/ar/ar2.png",
-        title:"App could detect if two or more certain cards were on the screen and based on the cards they could interact with each other. This was achieved by detecting which patterns were present and if the two had some sort of connection."
+        title:"AR app could detect if two or more certain cards were on the screen and based on the cards they could interact with each other. This was achieved by detecting patterns."
       }, 
       {
         src:"img/ar/ar3.png",
@@ -133,15 +133,16 @@
       }],           
       [{
         src:"img/levelproj/portal2.PNG",
-        title:"A collection of various maps done during my free time and published to the game’s respective workshop. Jumping around the pit is a Portal 2 level originally made for a class but continuously worked on after the end of the class until it was published. <br><a target='_blank' href='https://youtu.be/ChireDV6Xp0'>Link to video of the map</a>"
+        title:"A collection of various maps done during my free time. Published to each game’s respective workshop. Jumping Around The Pit is a Portal 2 level originally made for a class but continuously worked on after the end of the class until it was published. <br><a target='_blank' href='https://youtu.be/ChireDV6Xp0'>Link to video of the map</a>"
       },
         {
         src:"img/levelproj/portal1.PNG",
         title:"Overview of the level's exit and the pit."
+            
       },
       {
         src:"img/levelproj/bs1.PNG",
-        title:"My first officially published Beatsaber map. Published the map to the BeatSaver mapping site. Song went through several iterations  <br><a target='_blank' href='https://youtu.be/vlGm93O0fH0'>Link to video of the map</a>"
+        title:"My first published Beatsaber map, Charlie's Inferno by That Handsome Devil. Published the map to BeatSaver mapping site and to the offical Beatsaber discord server.<br><a target='_blank' href='https://youtu.be/vlGm93O0fH0'>Link to video of the map</a>"
       },
       {
         src:"img/levelproj/bs2.PNG",
