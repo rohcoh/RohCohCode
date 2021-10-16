@@ -52,7 +52,7 @@
      
       [{
         src:"img/cottage/cottage2.png",
-        title:"Users of the app play various games to earn money to clean up and decorate their cottage. Developed UI, game tutorials, card game features, and ambient scene animations in Unity. <br><a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>Link to app details.</a>"
+        title:"Users of the application play various games to earn money to clean up and decorate their cottage. Developed ui, game tutorials, card game features and ambient scene animations in Unity. <br><a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>Link to app details.</a>"
       },
       {
         src:"img/cottage/cottage1.png",
@@ -72,29 +72,29 @@
       },
        {
         src:"img/cottage/cottage6.png",
-        title:"Helped work on programming the background ambient animations."
+        title:"Worked on programming the background ambient animations."
       }
      ],
       [{
         src:"img/val/val1.png",
-        title:"Blue Mountain’s interactive 2019 Valentine's card. Was the primary coder and contact point for the project. Communicated directly with artists in order to get the specifications and assets for the card. This is the intro scene that the user has to click the butterflies to reveal. <br><a target='_blank' href='https://www.americangreetings.com/detail/ecards/valentines-day/beauty-sweetness-and-love-ecard-interactive/pn/prod3506709'>Link to card</a>"
+        title:"Blue Mountain’s interactive 2019 Valentine's card. Was the primary coder and contact point for the project. Communicated directly with artists to get the specifications and assets for the card. This is the intro scene where the user has to click  butterflies to reveal the animation. <br><a target='_blank' href='https://www.americangreetings.com/detail/ecards/valentines-day/beauty-sweetness-and-love-ecard-interactive/pn/prod3506709'>Link to card</a>"
       },
       {
         src:"img/val/val2.png",
-        title:"Card animation that played when the mailbox is clicked."
+        title:"Card animation that plays when the mailbox is clicked."
       },
       {
         src:"img/val/val3.png",
-        title:"Valentine's day ending scene after all the animations have played."
+        title:"Valentine's day ending scene."
       }],
 
       [{
         src:"img/cmas_2019/cm0.png",
-        title:"Interactive card made for Christmas 2019. Main programmer on project. Worked with the artist to put in the animations and assets. Tasked with optimization for older devices and handling particles. Made using Typescript with Greensock, PIXIJS, and in house libraries. <br><a target='_blank' href='https://www.bluemountain.com/ecards/christmas/the-gift-of-christmas-personalize/card-3491452'>Link to card</a>"
+        title:"Interactive card made for Christmas 2019. Main programmer on project. Worked with the artist to put in the animations and assets. Tasked with optimization for older devices and handling particles. Made using Typescript with Greensock, PIXIJS and in house libraries. <br><a target='_blank' href='https://www.bluemountain.com/ecards/christmas/the-gift-of-christmas-personalize/card-3491452'>Link to card</a>"
       },
       {
         src:"img/cmas_2019/cm1.png",
-        title:"Ending of card displaying the user's name."
+        title:"Ending of card displaying the reciever's name."
       },
       {
         src:"img/cmas_2019/cm2.png",
@@ -103,11 +103,11 @@
 
       [{
         src:"img/jlnotecard/jlvid1.png",
-        title:"Jacquie Lawson’s video cards are a collection of animated ecards made for different holidays and situations. Wrote detailed step by step tutorials that would be usable by non-tech related positions, interns, and future hires on the confluence page for the department.<br><a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506977&path=393919&pmode=init'>Link to card</a>"
+        title:"Jacquie Lawson’s videocards are a collection of animated ecards made for different holidays and situations. Wrote detailed step-by-step tutorials used by non-tech related positions, interns and future hires.<br><a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506977&path=393919&pmode=init'>Link to card</a>"
       },
        {
         src:"img/jlnotecard/jlvid2.png",
-        title:"Scene at the end of the card that displays various information related to the topic of the card."
+        title:"Scene at the end of the card, which displays  information about the topic of the video."
       },
        {
         src:"img/jlnotecard/jlvid3.png",
@@ -115,34 +115,30 @@
       },
        {
         src:"img/jlnotecard/jlvid4.png",
-        title:"End of JL video card from the user side."
+        title:"End of JL video card from the sender's side."
       }
      ],
             
       [{
         src:"img/ar/ar1.png",
-        title:"Programmer of AR application - 2018 American Greetings Interactive Intern Hackday. Application won first place. Application integrated greeting cards in the virtual space.  "
+        title:"Programmed Unity AR application for 2018 American Greetings Interactive Intern Hackday. Application won first place. Application integrated greeting cards in the virtual space."
       },
       {
         src:"img/ar/ar2.png",
-        title:"AR app could detect if two or more certain cards were on the screen and based on the cards they could interact with each other. This was achieved by detecting patterns."
-      }, 
-      {
-        src:"img/ar/ar3.png",
-        title:"Development in progress for one of the Christmas AR cards with some test assets in place."
+        title:"Programmed AR application to detect certain patterns on the user's screen. Interactions changed based on the detected pattern."
       }],           
       [{
         src:"img/levelproj/portal2.PNG",
-        title:"A collection of various maps done during my free time. Published to each game’s respective workshop. Jumping Around The Pit is a Portal 2 level originally made for a class but continuously worked on after the end of the class until it was published. <br><a target='_blank' href='https://youtu.be/ChireDV6Xp0'>Link to video of the map</a>"
+        title:"A collection of various levels created during my free time. Published to each game’s respective workshop. <br><a target='_blank' href='https://youtu.be/ChireDV6Xp0'>Link to video of the map</a>"
       },
         {
         src:"img/levelproj/portal1.PNG",
-        title:"Overview of the level's exit and the pit."
+        title:"Overview of the Portal 2's level."
             
       },
       {
         src:"img/levelproj/bs1.PNG",
-        title:"My first published Beatsaber map, Charlie's Inferno by That Handsome Devil. Published the map to BeatSaver mapping site and to the offical Beatsaber discord server.<br><a target='_blank' href='https://youtu.be/vlGm93O0fH0'>Link to video of the map</a>"
+        title:"First published Beatsaber map - Charlie's Inferno by That Handsome Devil. Published the map to BeatSaver and to the offical Beatsaber discord server.<br><a target='_blank' href='https://youtu.be/vlGm93O0fH0'>Link to video of the map</a>"
       },
       {
         src:"img/levelproj/bs2.PNG",
