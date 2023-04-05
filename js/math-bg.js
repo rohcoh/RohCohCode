@@ -1,4 +1,3 @@
-
 var canvas = document.getElementById("myCanvas");
 canvas.style.zIndex = "-3";
 var c = canvas.getContext("2d");

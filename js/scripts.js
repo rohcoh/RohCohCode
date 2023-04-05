@@ -4,7 +4,6 @@
     * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
     */
 
-  
     (function($) {
   "use strict"; // Start of use strict
 
@@ -32,6 +31,7 @@
     target: '#mainNav',
     offset: 75
   });
+        
 
 
   // Collapse Navbar
