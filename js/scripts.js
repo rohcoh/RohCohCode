@@ -129,7 +129,7 @@
       }],           
       [{
         src:"img/levelproj/portal2.PNG",
-        title:"A collection of various levels created during my free time. Published to each game’s respective workshop. <br><a target='_blank' href='https://youtu.be/ChireDV6Xp0'>Link to video of the map</a>"
+        title:"A collection of various levels created during my free time. Some of the maps have been published to each game’s respective workshop. <br><a target='_blank' href='https://youtu.be/ChireDV6Xp0'>Link to video of the map</a>"
       },
         {
         src:"img/levelproj/portal1.PNG",
@@ -138,13 +138,16 @@
       },
       {
         src:"img/levelproj/bs1.PNG",
-        title:"First published Beatsaber map - Charlie's Inferno by That Handsome Devil. Published the map to BeatSaver and to the offical Beatsaber discord server.<br><a target='_blank' href='https://youtu.be/vlGm93O0fH0'>Link to video of the map</a>"
+        title:"First published Beat Saber map - Charlie's Inferno by That Handsome Devil. This was the 3rd map I finnished. Published the map to BeatSaver and to the offical Beat Saber discord server.<br><a target='_blank' href='https://youtu.be/vlGm93O0fH0'>Link to video of the map</a>"
       },
       {
         src:"img/levelproj/bs2.PNG",
-        title:"Second half of the Beatsaber map and the song."
+        title:"Second half of the Beat Saber map and the song."
+      },
+      {
+        src:"img/levelproj/randyphoto.PNG",
+        title:"This is the 2nd ever map I made to completion. Unfortunately, the first map got wiped from my hard-drive. This map was made for friends and was not published.<br><a target='_blank' href='https://youtu.be/4P3ZgBqskxo'>Link to video of the map</a>"
       }]
-
     ];
 
     // Magnific popup calls
