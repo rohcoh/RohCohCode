@@ -9967,7 +9967,6 @@ hr.rounded {
     right: auto;
     left: 16px;
 }
-.main-timeline .timeline:nth-child(even) .description{ margin: 20px 20px 0 80px; }
 .main-timeline .timeline:nth-child(4n+2):before,
 .main-timeline .timeline:nth-child(4n+2):after{
     background-color: #b04f21;
@@ -9997,10 +9996,6 @@ hr.rounded {
     .main-timeline .timeline:nth-child(even):after{
         right: auto;
         left: 20px;
-    }
-    .main-timeline .description,
-    .main-timeline .timeline:nth-child(even) .description{
-        margin: 20px 20px 0 80px;
     }
     .main-timeline .timeline-icon,
     .main-timeline .timeline:nth-child(even) .timeline-icon{
