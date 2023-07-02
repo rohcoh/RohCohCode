@@ -52,7 +52,7 @@
      
       [{
         src:"img/cottage/cottage2.png",
-        title:"Users of the application play various games to earn money to clean up and decorate their cottage. Developed ui, game tutorials, card game features and ambient scene animations in Unity. <br><a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>Link to app details.</a>"
+        title:"Assisted with the creation of the Jacquie Lawson Country Cottage App. Users of the application play various games to earn in-game money used to clean up their cottage, buy decorations, find hidden ambient animations and unlock various games and activities. Developed ui, game tutorials and card game features in Unity. <br> For more information on the app, visit <a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>the page here.</a>"
       },
       {
         src:"img/cottage/cottage1.png",
@@ -64,11 +64,11 @@
       },
        {
         src:"img/cottage/cottage4.png",
-        title:"UI portion of the solitaire tutorial."
+        title:""
       },
        {
         src:"img/cottage/cottage5.png",
-        title:"UI portion of the tripeaks tutorial."
+        title:""
       },
        {
         src:"img/cottage/cottage6.png",
