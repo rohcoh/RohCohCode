@@ -72,7 +72,7 @@
       },
        {
         src:"img/cottage/cottage6.png",
-        title:"Worked on programming the background ambient animations."
+        title:"Developed scripts for the looping background ambient animations. Worked with DoTween to reduce the number of large animations required."
       }
      ],
       [{
