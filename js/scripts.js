@@ -52,7 +52,7 @@
      
       [{
         src:"img/cottage/cottage2.png",
-        title:"Assisted with the creation of the Jacquie Lawson Country Cottage App. Users of the application play various games to earn in-game money used to clean up their cottage, buy decorations, find hidden ambient animations and unlock various games and activities. Developed ui, game tutorials and card game features in Unity. <br> For more information on the app, visit <a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>the page here.</a>"
+        title:"Assisted with the creation of the Jacquie Lawson Country Cottage App. Users of the application play various games to earn in-game money used to clean up their cottage, buy decorations, find hidden ambient animations and unlock various games and activities. Developed ui, game tutorials and card game features in Unity. <br> For more information on the app, visit here: <a target='_blank' href='https://www.jacquielawson.com/cottage?jl207'>Jacquie Lawson Country Cottage App</a>"
       },
       {
         src:"img/cottage/cottage1.png",
@@ -77,7 +77,7 @@
      ],
       [{
         src:"img/val/val1.png",
-        title:"Blue Mountain’s interactive 2019 Valentine's card. Was the primary coder and contact point for the project. Communicated directly with artists to get the specifications and assets for the card. This is the intro scene where the user has to click  butterflies to reveal the animation. <br><a target='_blank' href='https://www.americangreetings.com/detail/ecards/valentines-day/beauty-sweetness-and-love-ecard-interactive/pn/prod3506709'>Link to card</a>"
+        title:"Blue Mountain’s interactive 2019 Valentine's card. Was the primary coder and contact point for the project. Communicated directly with artists to get the specifications and assets for the card. This is the intro scene where the user has to click  butterflies to reveal the animation. <br> To view the card, visit: <a target='_blank' href='https://www.americangreetings.com/detail/ecards/valentines-day/beauty-sweetness-and-love-ecard-interactive/pn/prod3506709'>Beauty, Sweetness and Love</a>"
       },
       {
         src:"img/val/val2.png",
@@ -89,21 +89,21 @@
       }],
 
       [{
-        src:"img/cmas_2019/cm0.png",
-        title:"Interactive card made for Christmas 2019. Main programmer on project. Worked with the artist to put in the animations and assets. Tasked with optimization for older devices and handling particles. Made using Typescript with Greensock, PIXIJS and in house libraries. <br><a target='_blank' href='https://www.bluemountain.com/ecards/christmas/the-gift-of-christmas-personalize/card-3491452'>Link to card</a>"
+        src:"img/halloween/h0.png",
+        title:"Developed Blue Mountain’s Halloween Hidden Object Game. Based different hidden object possibilities off of Adobe Animate files given by artists. <br> To play the game, visit: <a target='_blank' href='https://www.bluemountain.com/ecards/halloween/halloween-hidden-objects-game/card-3501609'>Halloween Hidden Object Game</a>"
       },
       {
-        src:"img/cmas_2019/cm1.png",
-        title:"Ending of card displaying the reciever's name."
+        src:"img/halloween/h1.png",
+        title:"Created loops and particles for animation.  Added in music and sound effects to be played during the game. Set up the different states of the game."
       },
       {
-        src:"img/cmas_2019/cm2.png",
-        title:"Splash screen when exiting fullscreen."
+        src:"img/halloween/h2.png",
+        title:"Animated end-game animation using DoTween and in-house libraries."
       }],
 
       [{
         src:"img/jlnotecard/jlvid1.png",
-        title:"Jacquie Lawson’s videocards are a collection of animated ecards made for different holidays and situations. Wrote detailed step-by-step tutorials used by non-tech related positions, interns and future hires.<br><a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506977&path=393919&pmode=init'>Link to card</a>"
+        title:"Jacquie Lawson’s videocards are a collection of animated ecards made for different holidays and situations. Wrote detailed step-by-step tutorials used by non-tech related positions, interns and future hires.<br> To view the card, visit:   <a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506977&path=393919&pmode=init'>Birthday Balloons</a>"
       },
        {
         src:"img/jlnotecard/jlvid2.png",
@@ -111,7 +111,7 @@
       },
        {
         src:"img/jlnotecard/jlvid3.png",
-        title:"Saint Patrick's day JL video card.<br><a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506979&path=393919&pmode=init'>Link to card</a>"
+        title:"Saint Patrick's day JL video card.<br> To view the card, visit: <a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506979&path=393919&pmode=init'>Picnic Pranks</a>"
       },
        {
         src:"img/jlnotecard/jlvid4.png",
