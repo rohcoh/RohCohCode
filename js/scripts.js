@@ -87,7 +87,6 @@
         src:"img/val/val3.png",
         title:"Valentine's day ending scene."
       }],
-
       [{
         src:"img/halloween/h0.png",
         title:"Developed Blue Mountain’s Halloween Hidden Object Game. Based different hidden object possibilities off of Adobe Animate files given by artists. <br> To play the game, visit: <a target='_blank' href='https://www.bluemountain.com/ecards/halloween/halloween-hidden-objects-game/card-3501609'>Halloween Hidden Object Game</a>"
@@ -100,7 +99,6 @@
         src:"img/halloween/h2.png",
         title:"Animated end-game animation using DoTween and in-house libraries."
       }],
-
       [{
         src:"img/jlnotecard/jlvid1.png",
         title:"Jacquie Lawson’s videocards are a collection of animated ecards made for different holidays and situations. Wrote detailed step-by-step tutorials used by non-tech related positions, interns and future hires.<br> To view the card, visit:   <a target='_blank' href='https://www.jacquielawson.com/sendcard/preview?cont=1&hdn=0&fldCard=3506977&path=393919&pmode=init'>Birthday Balloons</a>"
